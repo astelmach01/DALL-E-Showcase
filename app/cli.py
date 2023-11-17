@@ -2,6 +2,8 @@ import datetime
 
 import rich_click as click
 
+from .main import main
+
 
 @click.group("app")
 def cli():
@@ -17,3 +19,4 @@ def cli():
 @click.option("--end-date", type=click.DateTime(), help="the end time (exclusive")
 def run(start_date: datetime.datetime, end_date: datetime.datetime):
     print("successfully launched")
+    main()
