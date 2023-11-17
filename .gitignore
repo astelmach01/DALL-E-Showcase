@@ -3,6 +3,9 @@
 
 .ruff_cache
 
+# the data directory
+data/
+
 # ignore session_name.session
 *.session
 *.session-journal

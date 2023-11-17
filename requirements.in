@@ -1,5 +1,8 @@
 python-dotenv
 ruff
 
-
+pre-commit
 rich-click
+
+
+openai
