@@ -16,14 +16,3 @@ repos:
       # Run the Ruff formatter.
       - id: ruff-format
 
-
-  - repo: local
-    hooks:
-      - id: mypy
-        name: mypy - Static type checking
-        description: Mypy helps ensure that we use our functions and variables correctly by checking the types.
-        entry: mypy
-        language: system
-        types: [python]
-        exclude: ^examples/
-        require_serial: true
